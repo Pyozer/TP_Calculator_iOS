@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -235,7 +236,7 @@
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBQ-t6-iwi">
                                                         <rect key="frame" x="0.0" y="267" width="93.5" height="66.5"/>
-                                                        <color key="backgroundColor" red="1" green="0.66548052226027399" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="0.75294117647058822" green="0.22352941176470587" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="="/>
@@ -257,6 +258,7 @@
                             <constraint firstAttribute="bottom" secondItem="S4b-u7-D3D" secondAttribute="bottom" id="eLW-oG-PIV"/>
                             <constraint firstItem="S4b-u7-D3D" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xOW-Ns-pOB"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="ea0-lH-Lx3"/>
                     </view>
                     <connections>
                         <outlet property="label" destination="l6Z-eo-SUK" id="6az-ee-XRP"/>
