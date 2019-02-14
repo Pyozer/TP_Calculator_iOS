@@ -24,8 +24,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ft-bP-y4Q">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6Z-eo-SUK">
-                                                <rect key="frame" x="16" y="126" width="343" height="82"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6Z-eo-SUK">
+                                                <rect key="frame" x="16" y="144.5" width="343" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="ybm-Td-ZNV"/>
                                                 </constraints>
@@ -186,7 +186,7 @@
                                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="SUP"/>
                                                         <connections>
-                                                            <action selector="onReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IuM-st-2St"/>
+                                                            <action selector="onDelete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fTw-lQ-k77"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
