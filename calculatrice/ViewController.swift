@@ -16,8 +16,6 @@ extension String {
 
 class ViewController: UIViewController {
 
-    @IBOutlet var numbers: [UIButton]!
-    @IBOutlet var operators: [UIButton]!
     @IBOutlet weak var reset: UIButton!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var tempResult: UILabel!
